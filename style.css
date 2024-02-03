@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI';
+}
+header{
+    background-color: white;
+}
+/* #box-1{
+    
+    margin-right: 0px;
+} */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: aliceblue;
+}
+#tweetForm {
+    margin-bottom: 20px;
+}
+
+.tweetCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.likeButton,
+.deleteButton {
+    cursor: pointer;
+    margin-right: 10px;
+}
+#post{
+    color: white;
+    text-align: center;
+    border-color: rgb(5, 114, 222);
+    background-color: rgb(5, 114, 222);
+    border-radius: 100px;
+}
+#Post-your-thoughts-here{
+    font-weight: 600;
+}
+
+#f1{
+    width: 500px;
+    background-color: red;
+}
+#f2{
+    width: 500px;
+    background-color: yellow;
+}
